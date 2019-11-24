@@ -1,0 +1,111 @@
+body{
+background-color: #6c7d86
+/* background-color:#8ba1adad;*/	
+}
+
+
+h1{
+    text-align: center;
+    color: #eada5b;
+	font-size: -webkit-xxx-large;
+	font-family: 'ZCOOL KuaiLe', cursive;
+
+}
+
+
+h2{
+	filter: blur(10px);
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'ZCOOL KuaiLe', cursive;
+}
+h2:hover {
+	filter: blur(0px);
+}
+
+ h3 {
+	height: 125px;
+	width: 63px;
+}
+
+/* Permet d'avoir l'image qui se zoom */
+.tuba h3 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.tuba h3:hover img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+h4 {
+	position: relative;
+	top: -15px;
+	height: 125px;
+	width: 63px;
+}
+
+h5 {
+	position: relative;
+	top: -60px;
+	height: 200px;
+	width: 80px;
+}
+
+h6 {
+		position: relative;
+		top: -500px;
+		left: 100px;
+	height: 150px;
+	width: 80px;
+}
+
+
+
+/*
+.element{
+	height: 500px;
+	width: 1000px;
+	margin-top: 150px;
+}
+
+.element img{
+	height: 500px;
+	width: 1000px;
+	filter: blur(20px);
+	opacity: 0.5px;
+	 -webkit-filter: blur(6px);
+}
+
+.element img:hover{
+	height: 500px;
+	width: 1000px;
+	filter: none;
+	opacity: 1px;
+	 -webkit-filter: none;
+}
+
+.element:nth-child(1){
+background-color: blue;
+}
+
+.element:nth-child(2){
+background-color: pink;
+}
+
+.element:nth-child(3){
+background-color: red;
+}*/
+
+
+
+
+
+
+
+
