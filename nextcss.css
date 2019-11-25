@@ -177,11 +177,12 @@ a{
 
 
 /*  DEBUT IMAGES*/
-#conteneur2 {
+#conteneur2{
   height: 500px;
   display:flex;
   justify-content: space-around;
   margin-top: 700px;
+
 }
 
 .container{
