@@ -104,11 +104,11 @@
     rythme2.src = 'son/rythme2.mp3' 
     rythme2.loop = true
 
-    $ dig WWW.createyoursymphony.com +nostats +nocomments +nocmd
-  > ;WWW.createyoursymphony.com.                     IN      A
-  > WWW.createyoursymphony.COM.              3592    IN      CNAME   YOUR-francine14.github.io.
-  > YOUR-francine14.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
-  >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1 
+$ dig createyoursymphony.COM +noall +answer
+> createyoursymphony.COM     3600    IN A     185.199.108.153
+> createyoursymphony.COM     3600    IN A     185.199.109.153
+> createyoursymphony.COM     3600    IN A     185.199.110.153 
+> createyoursymphony.COM     3600    IN A     185.199.111.153 
     
 /*function disableLoop() { 
   cello.loop = false;
